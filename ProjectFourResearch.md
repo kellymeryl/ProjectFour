@@ -21,7 +21,7 @@ Fitness Frank lives in NYC, has a fitbit, and is obsessed with fitness.  Fitness
 Sleepless Sarah lives in Atlanta, has a fitbit, and has insomnia.  She has tried everything, and has found that logging her sleep as well as her dreams is the most efficient way to track her sleeping habits.  She has meditation apps that allow her to help fall asleep, but she doesn't have an app that allows her to track her sleep the same way some apps allow her to use her fitbit to track how far she walks or how many calories she eats.  Her goal is to keep track of when she sleeps well and when she sleeps poorly, and allow her to log these daily along with notes in order to look back and understand the circumstances under which she sleeps well and the circumstances under which her insomnia prevails. 
 
 ## Competitive Analysis 
-[insert photo]
+![](https://github.com/kellymeryl/ProjectFour/blob/master/Images/CompetitiveResearch.png)
 
 ## Problem Statement
 1. How might we: How might we track how an individual sleeps throughout the night?
@@ -41,4 +41,18 @@ Sleepless Sarah lives in Atlanta, has a fitbit, and has insomnia.  She has tried
 7. Utilization of a notes page that stores the user's notes locally.
 
 ## Wireframes
-![](https://github.com/kellymeryl/ProjectFour/blob/master/ToDoListApplication/Images/Screen%201.png?raw=true)
+![](https://github.com/kellymeryl/ProjectFour/blob/master/Images/1.JPG)
+
+![](https://github.com/kellymeryl/ProjectFour/blob/master/Images/2.JPG)
+
+![](https://github.com/kellymeryl/ProjectFour/blob/master/Images/3.JPG)
+
+![](https://github.com/kellymeryl/ProjectFour/blob/master/Images/4.JPG)
+
+![](https://github.com/kellymeryl/ProjectFour/blob/master/Images/5.JPG)
+
+![](https://github.com/kellymeryl/ProjectFour/blob/master/Images/6.JPG)
+
+![](https://github.com/kellymeryl/ProjectFour/blob/master/Images/7.JPG)
+
+![](https://github.com/kellymeryl/ProjectFour/blob/master/Images/8.JPG)
