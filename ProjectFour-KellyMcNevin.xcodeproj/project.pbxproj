@@ -13,6 +13,7 @@
 		5236D3DF1E3E800F0026CB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5236D3DE1E3E800F0026CB05 /* Assets.xcassets */; };
 		5236D3E21E3E800F0026CB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5236D3E01E3E800F0026CB05 /* LaunchScreen.storyboard */; };
 		5236D3ED1E3E800F0026CB05 /* ProjectFour_KellyMcNevinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D3EC1E3E800F0026CB05 /* ProjectFour_KellyMcNevinTests.swift */; };
+		5236D3F81E3FB5250026CB05 /* EntryScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D3F71E3FB5250026CB05 /* EntryScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5236D3E81E3E800F0026CB05 /* ProjectFour-KellyMcNevinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProjectFour-KellyMcNevinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5236D3EC1E3E800F0026CB05 /* ProjectFour_KellyMcNevinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectFour_KellyMcNevinTests.swift; sourceTree = "<group>"; };
 		5236D3EE1E3E800F0026CB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5236D3F71E3FB5250026CB05 /* EntryScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				5236D3DE1E3E800F0026CB05 /* Assets.xcassets */,
 				5236D3E01E3E800F0026CB05 /* LaunchScreen.storyboard */,
 				5236D3E31E3E800F0026CB05 /* Info.plist */,
+				5236D3F71E3FB5250026CB05 /* EntryScreenViewController.swift */,
 			);
 			path = "ProjectFour-KellyMcNevin";
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			files = (
 				5236D3DA1E3E800F0026CB05 /* ViewController.swift in Sources */,
 				5236D3D81E3E800F0026CB05 /* AppDelegate.swift in Sources */,
+				5236D3F81E3FB5250026CB05 /* EntryScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +416,7 @@
 				5236D3F31E3E800F0026CB05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5236D3F41E3E800F0026CB05 /* Build configuration list for PBXNativeTarget "ProjectFour-KellyMcNevinTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				5236D3F61E3E800F0026CB05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
