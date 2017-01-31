@@ -7,13 +7,32 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
+import FirebaseAuth
 
 class EntryScreenViewController: UIViewController {
 
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    @IBAction func loginButtonWasTapped(_ sender: Any) {
+        FirebaseModel.sharedInstance.login(email: usernameTextField.text!, password: passwordTextField.text!, viewController: self, complete: { [weak self] success in
+            guard let strongSelf = self else {return}
+            DispatchQueue.main.async {
+                print("==============login successful!==============")
+                strongSelf.performSegue(withIdentifier: "LoginToHomeScreen", sender: self)
+            }
+        })
+    }
+    
+    @IBAction func signUpButtonWasTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "ToSignupScreen", sender: self)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

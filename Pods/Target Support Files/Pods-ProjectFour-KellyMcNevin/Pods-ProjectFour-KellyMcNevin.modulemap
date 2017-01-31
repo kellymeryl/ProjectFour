@@ -1,0 +1,6 @@
+framework module Pods_ProjectFour_KellyMcNevin {
+  umbrella header "Pods-ProjectFour-KellyMcNevin-umbrella.h"
+
+  export *
+  module * { export * }
+}
