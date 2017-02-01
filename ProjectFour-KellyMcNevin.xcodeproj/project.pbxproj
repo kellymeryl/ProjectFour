@@ -12,11 +12,17 @@
 		5236D3DF1E3E800F0026CB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5236D3DE1E3E800F0026CB05 /* Assets.xcassets */; };
 		5236D3E21E3E800F0026CB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5236D3E01E3E800F0026CB05 /* LaunchScreen.storyboard */; };
 		5236D3ED1E3E800F0026CB05 /* ProjectFour_KellyMcNevinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D3EC1E3E800F0026CB05 /* ProjectFour_KellyMcNevinTests.swift */; };
-		5236D3F81E3FB5250026CB05 /* EntryScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D3F71E3FB5250026CB05 /* EntryScreenViewController.swift */; };
 		5236D3FC1E3FBA3C0026CB05 /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D3FB1E3FBA3C0026CB05 /* Firebase.swift */; };
 		5236D3FE1E3FBBF50026CB05 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D3FD1E3FBBF50026CB05 /* DataModel.swift */; };
-		5236D4001E3FBE150026CB05 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D3FF1E3FBE150026CB05 /* SignUpViewController.swift */; };
 		5236D4081E3FF8880026CB05 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5236D4071E3FF8880026CB05 /* GoogleService-Info.plist */; };
+		5236D40A1E40E8A70026CB05 /* FitbitLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D4091E40E8A70026CB05 /* FitbitLoginViewController.swift */; };
+		5236D40C1E4114A20026CB05 /* Fitbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D40B1E4114A20026CB05 /* Fitbit.swift */; };
+		5236D40E1E411CD30026CB05 /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D40D1E411CD30026CB05 /* SessionsViewController.swift */; };
+		5236D4101E411D000026CB05 /* SessionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D40F1E411D000026CB05 /* SessionsTableViewCell.swift */; };
+		5236D4151E413D900026CB05 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D4141E413D900026CB05 /* NotesViewController.swift */; };
+		5236D4171E413E8D0026CB05 /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D4161E413E8D0026CB05 /* NotesTableViewCell.swift */; };
+		5236D4191E413F750026CB05 /* SleepAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D4181E413F750026CB05 /* SleepAnalysisViewController.swift */; };
+		529C87B21E423D04004427A5 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529C87B11E423D04004427A5 /* NoteDetailViewController.swift */; };
 		79493191052F43EAFCF46D7D /* Pods_ProjectFour_KellyMcNevin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34ABD21B502272A50D6B4A3 /* Pods_ProjectFour_KellyMcNevin.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,11 +47,17 @@
 		5236D3E81E3E800F0026CB05 /* ProjectFour-KellyMcNevinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProjectFour-KellyMcNevinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5236D3EC1E3E800F0026CB05 /* ProjectFour_KellyMcNevinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectFour_KellyMcNevinTests.swift; sourceTree = "<group>"; };
 		5236D3EE1E3E800F0026CB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5236D3F71E3FB5250026CB05 /* EntryScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryScreenViewController.swift; sourceTree = "<group>"; };
 		5236D3FB1E3FBA3C0026CB05 /* Firebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
 		5236D3FD1E3FBBF50026CB05 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
-		5236D3FF1E3FBE150026CB05 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		5236D4071E3FF8880026CB05 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5236D4091E40E8A70026CB05 /* FitbitLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitbitLoginViewController.swift; sourceTree = "<group>"; };
+		5236D40B1E4114A20026CB05 /* Fitbit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fitbit.swift; sourceTree = "<group>"; };
+		5236D40D1E411CD30026CB05 /* SessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
+		5236D40F1E411D000026CB05 /* SessionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionsTableViewCell.swift; sourceTree = "<group>"; };
+		5236D4141E413D900026CB05 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		5236D4161E413E8D0026CB05 /* NotesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewCell.swift; sourceTree = "<group>"; };
+		5236D4181E413F750026CB05 /* SleepAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepAnalysisViewController.swift; sourceTree = "<group>"; };
+		529C87B11E423D04004427A5 /* NoteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
 		962E57923635970B6337DFEE /* Pods-ProjectFour-KellyMcNevin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectFour-KellyMcNevin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectFour-KellyMcNevin/Pods-ProjectFour-KellyMcNevin.release.xcconfig"; sourceTree = "<group>"; };
 		D34ABD21B502272A50D6B4A3 /* Pods_ProjectFour_KellyMcNevin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectFour_KellyMcNevin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56C56307A6578C5D5412049 /* Pods-ProjectFour-KellyMcNevin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectFour-KellyMcNevin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectFour-KellyMcNevin/Pods-ProjectFour-KellyMcNevin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +105,7 @@
 		5236D3D61E3E800E0026CB05 /* ProjectFour-KellyMcNevin */ = {
 			isa = PBXGroup;
 			children = (
+				5236D4111E411E590026CB05 /* Table View Cells */,
 				5236D4061E3FC7BD0026CB05 /* Logic */,
 				5236D4051E3FC7AE0026CB05 /* UI */,
 				5236D4041E3FC79B0026CB05 /* View Controllers */,
@@ -115,6 +128,7 @@
 			children = (
 				5236D3FD1E3FBBF50026CB05 /* DataModel.swift */,
 				5236D3FB1E3FBA3C0026CB05 /* Firebase.swift */,
+				5236D40B1E4114A20026CB05 /* Fitbit.swift */,
 			);
 			name = "Data Models";
 			sourceTree = "<group>";
@@ -122,8 +136,11 @@
 		5236D4041E3FC79B0026CB05 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5236D3FF1E3FBE150026CB05 /* SignUpViewController.swift */,
-				5236D3F71E3FB5250026CB05 /* EntryScreenViewController.swift */,
+				5236D4091E40E8A70026CB05 /* FitbitLoginViewController.swift */,
+				5236D40D1E411CD30026CB05 /* SessionsViewController.swift */,
+				5236D4141E413D900026CB05 /* NotesViewController.swift */,
+				5236D4181E413F750026CB05 /* SleepAnalysisViewController.swift */,
+				529C87B11E423D04004427A5 /* NoteDetailViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -146,6 +163,15 @@
 				5236D3E31E3E800F0026CB05 /* Info.plist */,
 			);
 			name = Logic;
+			sourceTree = "<group>";
+		};
+		5236D4111E411E590026CB05 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5236D40F1E411D000026CB05 /* SessionsTableViewCell.swift */,
+				5236D4161E413E8D0026CB05 /* NotesTableViewCell.swift */,
+			);
+			name = "Table View Cells";
 			sourceTree = "<group>";
 		};
 		A5F3D85C070B5A31E06D2B6A /* Pods */ = {
@@ -323,11 +349,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5236D4001E3FBE150026CB05 /* SignUpViewController.swift in Sources */,
+				5236D4101E411D000026CB05 /* SessionsTableViewCell.swift in Sources */,
 				5236D3FE1E3FBBF50026CB05 /* DataModel.swift in Sources */,
 				5236D3D81E3E800F0026CB05 /* AppDelegate.swift in Sources */,
+				5236D40C1E4114A20026CB05 /* Fitbit.swift in Sources */,
+				5236D4151E413D900026CB05 /* NotesViewController.swift in Sources */,
 				5236D3FC1E3FBA3C0026CB05 /* Firebase.swift in Sources */,
-				5236D3F81E3FB5250026CB05 /* EntryScreenViewController.swift in Sources */,
+				529C87B21E423D04004427A5 /* NoteDetailViewController.swift in Sources */,
+				5236D40E1E411CD30026CB05 /* SessionsViewController.swift in Sources */,
+				5236D40A1E40E8A70026CB05 /* FitbitLoginViewController.swift in Sources */,
+				5236D4191E413F750026CB05 /* SleepAnalysisViewController.swift in Sources */,
+				5236D4171E413E8D0026CB05 /* NotesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

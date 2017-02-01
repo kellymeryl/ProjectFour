@@ -34,6 +34,7 @@ PODS:
   - FirebaseStorage (1.0.5):
     - FirebaseAnalytics (~> 3.5)
     - GTMSessionFetcher/Core (~> 1.1)
+  - FontAwesomeKit.Swift (0.3.1)
   - GoogleInterchangeUtilities (1.2.2):
     - GoogleSymbolUtilities (~> 1.1)
   - GoogleSymbolUtilities (1.1.2)
@@ -59,6 +60,7 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
+  - FontAwesomeKit.Swift
   - OAuthSwiftAlamofire
 
 SPEC CHECKSUMS:
@@ -71,6 +73,7 @@ SPEC CHECKSUMS:
   FirebaseDatabase: 6de92187481ff0e8e124064f21742e95ee883b02
   FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
   FirebaseStorage: 5738284835edb57f0e81d4ae5832bb17c1e4b5fa
+  FontAwesomeKit.Swift: 77fd566e8c20d3267da18161a10c48a31b9323b9
   GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
   GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
   GoogleToolboxForMac: 2b2596cbb7186865e98cadf2b1e262d851c2b168
@@ -78,6 +81,6 @@ SPEC CHECKSUMS:
   OAuthSwift: 7ec2c62274f6bdc30b1ba3b799c39a6fdcaea0e5
   OAuthSwiftAlamofire: 20bb998ac506f82c3bab0625fbc98a9c6fca783f
 
-PODFILE CHECKSUM: f99326181e90e865dbb6771d4d007196fc0d78ad
+PODFILE CHECKSUM: a7ee6655aab873c517fa03171dcbfde917d327ac
 
 COCOAPODS: 1.1.1

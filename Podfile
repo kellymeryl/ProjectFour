@@ -8,4 +8,5 @@ target 'ProjectFour-KellyMcNevin' do
 	pod 'Firebase/Storage'
 	pod 'OAuthSwiftAlamofire'
 	pod 'Charts'
+	pod 'FontAwesomeKit.Swift'
 end
