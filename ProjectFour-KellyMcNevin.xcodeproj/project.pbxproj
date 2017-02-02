@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5208A1541E439C8A007302EE /* ClassDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5208A1531E439C8A007302EE /* ClassDataModel.swift */; };
 		5236D3D81E3E800F0026CB05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D3D71E3E800F0026CB05 /* AppDelegate.swift */; };
 		5236D3DD1E3E800F0026CB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5236D3DB1E3E800F0026CB05 /* Main.storyboard */; };
 		5236D3DF1E3E800F0026CB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5236D3DE1E3E800F0026CB05 /* Assets.xcassets */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		4E6826C4DEEC3BCD8CAAB6CD /* Pods_ProjectFour_KellyMcNevinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectFour_KellyMcNevinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5208A1531E439C8A007302EE /* ClassDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassDataModel.swift; sourceTree = "<group>"; };
+		5208A1551E43BE29007302EE /* Fitbit_logo_CMYK.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fitbit_logo_CMYK.eps; sourceTree = "<group>"; };
 		5236D3D41E3E800E0026CB05 /* ProjectFour-KellyMcNevin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProjectFour-KellyMcNevin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5236D3D71E3E800F0026CB05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5236D3DC1E3E800F0026CB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5208A1561E43BE5E007302EE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5208A1551E43BE29007302EE /* Fitbit_logo_CMYK.eps */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		5236D3CB1E3E800E0026CB05 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +119,7 @@
 				5236D4111E411E590026CB05 /* Table View Cells */,
 				5236D4061E3FC7BD0026CB05 /* Logic */,
 				5236D4051E3FC7AE0026CB05 /* UI */,
+				5208A1561E43BE5E007302EE /* Images */,
 				5236D4041E3FC79B0026CB05 /* View Controllers */,
 				5236D4011E3FC7760026CB05 /* Data Models */,
 			);
@@ -129,6 +141,7 @@
 				5236D3FD1E3FBBF50026CB05 /* DataModel.swift */,
 				5236D3FB1E3FBA3C0026CB05 /* Firebase.swift */,
 				5236D40B1E4114A20026CB05 /* Fitbit.swift */,
+				5208A1531E439C8A007302EE /* ClassDataModel.swift */,
 			);
 			name = "Data Models";
 			sourceTree = "<group>";
@@ -138,8 +151,8 @@
 			children = (
 				5236D4091E40E8A70026CB05 /* FitbitLoginViewController.swift */,
 				5236D40D1E411CD30026CB05 /* SessionsViewController.swift */,
-				5236D4141E413D900026CB05 /* NotesViewController.swift */,
 				5236D4181E413F750026CB05 /* SleepAnalysisViewController.swift */,
+				5236D4141E413D900026CB05 /* NotesViewController.swift */,
 				529C87B11E423D04004427A5 /* NoteDetailViewController.swift */,
 			);
 			name = "View Controllers";
@@ -349,6 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5208A1541E439C8A007302EE /* ClassDataModel.swift in Sources */,
 				5236D4101E411D000026CB05 /* SessionsTableViewCell.swift in Sources */,
 				5236D3FE1E3FBBF50026CB05 /* DataModel.swift in Sources */,
 				5236D3D81E3E800F0026CB05 /* AppDelegate.swift in Sources */,

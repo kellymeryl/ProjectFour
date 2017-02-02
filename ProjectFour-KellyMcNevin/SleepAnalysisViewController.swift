@@ -11,6 +11,8 @@ import UIKit
 class SleepAnalysisViewController: UIViewController {
 
     @IBOutlet weak var dateLabel: UILabel!
+    var selectedIndex: Int?
+    var selectedItemIndex: Int?
     
     
     override func viewDidLoad() {

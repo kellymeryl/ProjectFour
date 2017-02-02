@@ -12,6 +12,7 @@ import SafariServices
 
 class FitbitLoginViewController: OAuthViewController, OAuthSwiftURLHandlerType {
     
+    var dataModel = DataModel()
 
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
@@ -20,7 +21,6 @@ class FitbitLoginViewController: OAuthViewController, OAuthSwiftURLHandlerType {
 
         doOAuthFitbit2(["consumerKey": "2283YY", "consumerSecret": "42daea49cdb4d55f355d2f03fc988bc1"])
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,15 +32,6 @@ class FitbitLoginViewController: OAuthViewController, OAuthSwiftURLHandlerType {
         // Dispose of any resources that can be recreated.
     }
     
-    var oauthswift = OAuth2Swift(
-        consumerKey:    fitbit_clientID,
-        consumerSecret: fitbit_consumer_secret,
-        authorizeUrl:   "https://www.fitbit.com/oauth2/authorize",
-        accessTokenUrl: "https://api.fitbit.com/oauth2/token",
-        responseType:   "token"
-    )
-    
-    
     func doOAuthFitbit2(_ serviceParameters: [String:String]) {
         let oauthswift = OAuth2Swift(
             consumerKey:    serviceParameters["consumerKey"]!,
@@ -51,7 +42,7 @@ class FitbitLoginViewController: OAuthViewController, OAuthSwiftURLHandlerType {
         )
         oauthswift.accessTokenBasicAuthentification = true
         
-        self.oauthswift = oauthswift
+        dataModel.oauthswift = oauthswift
         oauthswift.authorizeURLHandler = SafariURLHandler(viewController: self, oauthSwift: oauthswift)
         let state = generateState(withLength: 20)
         let _ = oauthswift.authorize(
@@ -59,52 +50,16 @@ class FitbitLoginViewController: OAuthViewController, OAuthSwiftURLHandlerType {
             success: { credential, response, parameters in
                 
                 print("success")
-                self.testFitbit2(oauthswift)
+                self.dataModel.testFitbit2(oauthswift)
         },
             failure: { error in
                 print(error.description)
         }
         )
     }
+    
     func handle(_ url: URL) {
         print(url)
-        
-    }
-
-    
-    func testFitbit2(_ oauthswift: OAuth2Swift) {
-        let _ = oauthswift.client.get(
-            "https://api.fitbit.com/1/user/-/profile.json",
-            parameters: [:],
-            success: { response in
-                let jsonDict = try? response.jsonObject()
-                print(jsonDict as Any)
-        },
-            failure: { error in
-                print(error.description)
-        }
-        )
-    }
-    
-    //MARK: AlertView
-    func showALertWithTag(_ tag:Int, title:String, message:String?,delegate:AnyObject!, cancelButtonTitle:String?, otherButtonTitle:String?)
-    {
-        let alert = UIAlertView()
-        
-        alert.tag = tag
-        alert.title = title
-        alert.message = message
-        alert.delegate = delegate
-        if (cancelButtonTitle != nil)
-        {
-            alert.addButton(withTitle: cancelButtonTitle!)
-        }
-        if (otherButtonTitle != nil)
-        {
-            alert.addButton(withTitle: otherButtonTitle!)
-        }
-        
-        alert.show()
     }
     
 }
