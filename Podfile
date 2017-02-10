@@ -9,4 +9,5 @@ target 'ProjectFour-KellyMcNevin' do
 	pod 'OAuthSwiftAlamofire'
 	pod 'Charts'
 	pod 'FontAwesomeKit.Swift'
+	pod 'DZNEmptyDataSet'
 end

@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		5208A1541E439C8A007302EE /* ClassDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5208A1531E439C8A007302EE /* ClassDataModel.swift */; };
+		5208A1581E43C461007302EE /* Fitbit_logo_RGB.png in Resources */ = {isa = PBXBuildFile; fileRef = 5208A1571E43C461007302EE /* Fitbit_logo_RGB.png */; };
+		5208A15A1E43C472007302EE /* Fitbit_logo_reversed_RGB.png in Resources */ = {isa = PBXBuildFile; fileRef = 5208A1591E43C472007302EE /* Fitbit_logo_reversed_RGB.png */; };
+		5208A1601E48CCF5007302EE /* SleepAnalysisCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5208A15F1E48CCF5007302EE /* SleepAnalysisCollectionViewCell.swift */; };
+		5208A16E1E48D30F007302EE /* timeInBed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5208A1611E48D30F007302EE /* timeInBed.png */; };
+		5208A16F1E48D30F007302EE /* restlessCount.png in Resources */ = {isa = PBXBuildFile; fileRef = 5208A1621E48D30F007302EE /* restlessCount.png */; };
+		5208A1701E48D30F007302EE /* restlessDuration.png in Resources */ = {isa = PBXBuildFile; fileRef = 5208A1631E48D30F007302EE /* restlessDuration.png */; };
+		5208A1711E48D30F007302EE /* awakeduration.png in Resources */ = {isa = PBXBuildFile; fileRef = 5208A1641E48D30F007302EE /* awakeduration.png */; };
+		5208A1721E48D30F007302EE /* awakeCount.png in Resources */ = {isa = PBXBuildFile; fileRef = 5208A1651E48D30F007302EE /* awakeCount.png */; };
+		5208A1731E48D30F007302EE /* awakeningsCounted.png in Resources */ = {isa = PBXBuildFile; fileRef = 5208A1661E48D30F007302EE /* awakeningsCounted.png */; };
+		5208A1741E48D30F007302EE /* minutesAwake.png in Resources */ = {isa = PBXBuildFile; fileRef = 5208A1671E48D30F007302EE /* minutesAwake.png */; };
+		5208A1751E48D30F007302EE /* minutesAsleep.png in Resources */ = {isa = PBXBuildFile; fileRef = 5208A1681E48D30F007302EE /* minutesAsleep.png */; };
+		5208A1761E48D30F007302EE /* minutestofallasleep.png in Resources */ = {isa = PBXBuildFile; fileRef = 5208A1691E48D30F007302EE /* minutestofallasleep.png */; };
+		5208A1771E48D30F007302EE /* duration.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5208A16A1E48D30F007302EE /* duration.jpeg */; };
+		5208A1781E48D30F007302EE /* startTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 5208A16B1E48D30F007302EE /* startTime.png */; };
+		5208A1791E48D30F007302EE /* efficiency.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5208A16C1E48D30F007302EE /* efficiency.jpeg */; };
+		5208A17A1E48D30F007302EE /* notes.png in Resources */ = {isa = PBXBuildFile; fileRef = 5208A16D1E48D30F007302EE /* notes.png */; };
 		5236D3D81E3E800F0026CB05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D3D71E3E800F0026CB05 /* AppDelegate.swift */; };
 		5236D3DD1E3E800F0026CB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5236D3DB1E3E800F0026CB05 /* Main.storyboard */; };
 		5236D3DF1E3E800F0026CB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5236D3DE1E3E800F0026CB05 /* Assets.xcassets */; };
@@ -23,7 +39,10 @@
 		5236D4151E413D900026CB05 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D4141E413D900026CB05 /* NotesViewController.swift */; };
 		5236D4171E413E8D0026CB05 /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D4161E413E8D0026CB05 /* NotesTableViewCell.swift */; };
 		5236D4191E413F750026CB05 /* SleepAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D4181E413F750026CB05 /* SleepAnalysisViewController.swift */; };
-		529C87B21E423D04004427A5 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529C87B11E423D04004427A5 /* NoteDetailViewController.swift */; };
+		5288C4721E48E7BA00C43B60 /* IndividualNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288C4711E48E7BA00C43B60 /* IndividualNoteViewController.swift */; };
+		5288C4B01E49123C00C43B60 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 5288C4AE1E49123C00C43B60 /* images.png */; };
+		5288C4B11E49123C00C43B60 /* Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = 5288C4AF1E49123C00C43B60 /* Unknown.png */; };
+		5288C4B31E4A532B00C43B60 /* EditableNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288C4B21E4A532A00C43B60 /* EditableNotesViewController.swift */; };
 		79493191052F43EAFCF46D7D /* Pods_ProjectFour_KellyMcNevin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34ABD21B502272A50D6B4A3 /* Pods_ProjectFour_KellyMcNevin.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +60,22 @@
 		4E6826C4DEEC3BCD8CAAB6CD /* Pods_ProjectFour_KellyMcNevinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectFour_KellyMcNevinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5208A1531E439C8A007302EE /* ClassDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassDataModel.swift; sourceTree = "<group>"; };
 		5208A1551E43BE29007302EE /* Fitbit_logo_CMYK.eps */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fitbit_logo_CMYK.eps; sourceTree = "<group>"; };
+		5208A1571E43C461007302EE /* Fitbit_logo_RGB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fitbit_logo_RGB.png; sourceTree = "<group>"; };
+		5208A1591E43C472007302EE /* Fitbit_logo_reversed_RGB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fitbit_logo_reversed_RGB.png; sourceTree = "<group>"; };
+		5208A15F1E48CCF5007302EE /* SleepAnalysisCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepAnalysisCollectionViewCell.swift; sourceTree = "<group>"; };
+		5208A1611E48D30F007302EE /* timeInBed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeInBed.png; sourceTree = "<group>"; };
+		5208A1621E48D30F007302EE /* restlessCount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restlessCount.png; sourceTree = "<group>"; };
+		5208A1631E48D30F007302EE /* restlessDuration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restlessDuration.png; sourceTree = "<group>"; };
+		5208A1641E48D30F007302EE /* awakeduration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awakeduration.png; sourceTree = "<group>"; };
+		5208A1651E48D30F007302EE /* awakeCount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awakeCount.png; sourceTree = "<group>"; };
+		5208A1661E48D30F007302EE /* awakeningsCounted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awakeningsCounted.png; sourceTree = "<group>"; };
+		5208A1671E48D30F007302EE /* minutesAwake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minutesAwake.png; sourceTree = "<group>"; };
+		5208A1681E48D30F007302EE /* minutesAsleep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minutesAsleep.png; sourceTree = "<group>"; };
+		5208A1691E48D30F007302EE /* minutestofallasleep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minutestofallasleep.png; sourceTree = "<group>"; };
+		5208A16A1E48D30F007302EE /* duration.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duration.jpeg; sourceTree = "<group>"; };
+		5208A16B1E48D30F007302EE /* startTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startTime.png; sourceTree = "<group>"; };
+		5208A16C1E48D30F007302EE /* efficiency.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = efficiency.jpeg; sourceTree = "<group>"; };
+		5208A16D1E48D30F007302EE /* notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notes.png; sourceTree = "<group>"; };
 		5236D3D41E3E800E0026CB05 /* ProjectFour-KellyMcNevin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProjectFour-KellyMcNevin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5236D3D71E3E800F0026CB05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5236D3DC1E3E800F0026CB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,7 +95,10 @@
 		5236D4141E413D900026CB05 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		5236D4161E413E8D0026CB05 /* NotesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewCell.swift; sourceTree = "<group>"; };
 		5236D4181E413F750026CB05 /* SleepAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepAnalysisViewController.swift; sourceTree = "<group>"; };
-		529C87B11E423D04004427A5 /* NoteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
+		5288C4711E48E7BA00C43B60 /* IndividualNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualNoteViewController.swift; sourceTree = "<group>"; };
+		5288C4AE1E49123C00C43B60 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		5288C4AF1E49123C00C43B60 /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unknown.png; sourceTree = "<group>"; };
+		5288C4B21E4A532A00C43B60 /* EditableNotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableNotesViewController.swift; sourceTree = "<group>"; };
 		962E57923635970B6337DFEE /* Pods-ProjectFour-KellyMcNevin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectFour-KellyMcNevin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectFour-KellyMcNevin/Pods-ProjectFour-KellyMcNevin.release.xcconfig"; sourceTree = "<group>"; };
 		D34ABD21B502272A50D6B4A3 /* Pods_ProjectFour_KellyMcNevin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectFour_KellyMcNevin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56C56307A6578C5D5412049 /* Pods-ProjectFour-KellyMcNevin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectFour-KellyMcNevin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectFour-KellyMcNevin/Pods-ProjectFour-KellyMcNevin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +126,23 @@
 		5208A1561E43BE5E007302EE /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5288C4AE1E49123C00C43B60 /* images.png */,
+				5288C4AF1E49123C00C43B60 /* Unknown.png */,
+				5208A1611E48D30F007302EE /* timeInBed.png */,
+				5208A1621E48D30F007302EE /* restlessCount.png */,
+				5208A1631E48D30F007302EE /* restlessDuration.png */,
+				5208A1641E48D30F007302EE /* awakeduration.png */,
+				5208A1651E48D30F007302EE /* awakeCount.png */,
+				5208A1661E48D30F007302EE /* awakeningsCounted.png */,
+				5208A1671E48D30F007302EE /* minutesAwake.png */,
+				5208A1681E48D30F007302EE /* minutesAsleep.png */,
+				5208A1691E48D30F007302EE /* minutestofallasleep.png */,
+				5208A16A1E48D30F007302EE /* duration.jpeg */,
+				5208A16B1E48D30F007302EE /* startTime.png */,
+				5208A16C1E48D30F007302EE /* efficiency.jpeg */,
+				5208A16D1E48D30F007302EE /* notes.png */,
+				5208A1591E43C472007302EE /* Fitbit_logo_reversed_RGB.png */,
+				5208A1571E43C461007302EE /* Fitbit_logo_RGB.png */,
 				5208A1551E43BE29007302EE /* Fitbit_logo_CMYK.eps */,
 			);
 			name = Images;
@@ -153,7 +208,8 @@
 				5236D40D1E411CD30026CB05 /* SessionsViewController.swift */,
 				5236D4181E413F750026CB05 /* SleepAnalysisViewController.swift */,
 				5236D4141E413D900026CB05 /* NotesViewController.swift */,
-				529C87B11E423D04004427A5 /* NoteDetailViewController.swift */,
+				5288C4711E48E7BA00C43B60 /* IndividualNoteViewController.swift */,
+				5288C4B21E4A532A00C43B60 /* EditableNotesViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -183,6 +239,7 @@
 			children = (
 				5236D40F1E411D000026CB05 /* SessionsTableViewCell.swift */,
 				5236D4161E413E8D0026CB05 /* NotesTableViewCell.swift */,
+				5208A15F1E48CCF5007302EE /* SleepAnalysisCollectionViewCell.swift */,
 			);
 			name = "Table View Cells";
 			sourceTree = "<group>";
@@ -293,10 +350,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5208A17A1E48D30F007302EE /* notes.png in Resources */,
 				5236D3E21E3E800F0026CB05 /* LaunchScreen.storyboard in Resources */,
 				5236D4081E3FF8880026CB05 /* GoogleService-Info.plist in Resources */,
+				5208A1731E48D30F007302EE /* awakeningsCounted.png in Resources */,
+				5208A16F1E48D30F007302EE /* restlessCount.png in Resources */,
+				5208A1711E48D30F007302EE /* awakeduration.png in Resources */,
+				5208A1781E48D30F007302EE /* startTime.png in Resources */,
+				5208A1791E48D30F007302EE /* efficiency.jpeg in Resources */,
+				5208A16E1E48D30F007302EE /* timeInBed.png in Resources */,
+				5208A15A1E43C472007302EE /* Fitbit_logo_reversed_RGB.png in Resources */,
+				5208A1771E48D30F007302EE /* duration.jpeg in Resources */,
+				5288C4B01E49123C00C43B60 /* images.png in Resources */,
+				5208A1751E48D30F007302EE /* minutesAsleep.png in Resources */,
+				5208A1761E48D30F007302EE /* minutestofallasleep.png in Resources */,
 				5236D3DF1E3E800F0026CB05 /* Assets.xcassets in Resources */,
+				5208A1701E48D30F007302EE /* restlessDuration.png in Resources */,
+				5208A1581E43C461007302EE /* Fitbit_logo_RGB.png in Resources */,
+				5288C4B11E49123C00C43B60 /* Unknown.png in Resources */,
+				5208A1741E48D30F007302EE /* minutesAwake.png in Resources */,
 				5236D3DD1E3E800F0026CB05 /* Main.storyboard in Resources */,
+				5208A1721E48D30F007302EE /* awakeCount.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,18 +436,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5208A1601E48CCF5007302EE /* SleepAnalysisCollectionViewCell.swift in Sources */,
 				5208A1541E439C8A007302EE /* ClassDataModel.swift in Sources */,
 				5236D4101E411D000026CB05 /* SessionsTableViewCell.swift in Sources */,
 				5236D3FE1E3FBBF50026CB05 /* DataModel.swift in Sources */,
+				5288C4B31E4A532B00C43B60 /* EditableNotesViewController.swift in Sources */,
 				5236D3D81E3E800F0026CB05 /* AppDelegate.swift in Sources */,
 				5236D40C1E4114A20026CB05 /* Fitbit.swift in Sources */,
 				5236D4151E413D900026CB05 /* NotesViewController.swift in Sources */,
 				5236D3FC1E3FBA3C0026CB05 /* Firebase.swift in Sources */,
-				529C87B21E423D04004427A5 /* NoteDetailViewController.swift in Sources */,
 				5236D40E1E411CD30026CB05 /* SessionsViewController.swift in Sources */,
 				5236D40A1E40E8A70026CB05 /* FitbitLoginViewController.swift in Sources */,
 				5236D4191E413F750026CB05 /* SleepAnalysisViewController.swift in Sources */,
 				5236D4171E413E8D0026CB05 /* NotesTableViewCell.swift in Sources */,
+				5288C4721E48E7BA00C43B60 /* IndividualNoteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

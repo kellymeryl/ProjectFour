@@ -22,6 +22,7 @@ class SessionsViewController: UIViewController, UITableViewDataSource, UITableVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,9 +36,16 @@ class SessionsViewController: UIViewController, UITableViewDataSource, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SessionsTableViewCell", for: indexPath) as! SessionsTableViewCell
         let user = users[indexPath.row]
+       // let myFormatter = DateFormatter()
+       // myFormatter.dateStyle = .short
+       // let date = myFormatter.date(from: user.startTime)
+       // myFormatter.dateStyle = .short
+       // let stringDate = myFormatter.string(from: date!)
         cell.dateLabel.text = user.startTime
-        cell.durationLabel.text = user.duration
-        cell.efficiencyLabel.text = user.efficiency
+        let duration = Double(user.duration)
+        let durationLabelText = String((duration! / 1000) * 0.000277778) + " hrs"
+        cell.durationLabel.text = durationLabelText
+        cell.efficiencyLabel.text = user.efficiency + "%"
         return cell
     }
     
@@ -54,14 +62,13 @@ class SessionsViewController: UIViewController, UITableViewDataSource, UITableVi
         }
             selectedCell?.backgroundColor = UIColor.white
             selectedCell = cell
-        }
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
         let detailedItem = segue.destination as! SleepAnalysisViewController
-        detailedItem.selectedIndex = selectedIndex
-        detailedItem.selectedItemIndex = sessionsTableView.indexPathForSelectedRow?.row
-
+        detailedItem.selectedIndex = sessionsTableView.indexPathForSelectedRow?.row
+        
     }
     
 
