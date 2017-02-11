@@ -24,6 +24,9 @@
 		5208A1781E48D30F007302EE /* startTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 5208A16B1E48D30F007302EE /* startTime.png */; };
 		5208A1791E48D30F007302EE /* efficiency.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5208A16C1E48D30F007302EE /* efficiency.jpeg */; };
 		5208A17A1E48D30F007302EE /* notes.png in Resources */ = {isa = PBXBuildFile; fileRef = 5208A16D1E48D30F007302EE /* notes.png */; };
+		5231DCB61E4E4E8B00E91750 /* 3_10_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 5231DCB51E4E4E8B00E91750 /* 3_10_8.png */; };
+		5231DCBE1E4E616700E91750 /* Sleep-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 5231DCBD1E4E616700E91750 /* Sleep-48.png */; };
+		5231DCC01E4E619600E91750 /* Note-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 5231DCBF1E4E619600E91750 /* Note-48.png */; };
 		5236D3D81E3E800F0026CB05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236D3D71E3E800F0026CB05 /* AppDelegate.swift */; };
 		5236D3DD1E3E800F0026CB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5236D3DB1E3E800F0026CB05 /* Main.storyboard */; };
 		5236D3DF1E3E800F0026CB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5236D3DE1E3E800F0026CB05 /* Assets.xcassets */; };
@@ -76,6 +79,9 @@
 		5208A16B1E48D30F007302EE /* startTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startTime.png; sourceTree = "<group>"; };
 		5208A16C1E48D30F007302EE /* efficiency.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = efficiency.jpeg; sourceTree = "<group>"; };
 		5208A16D1E48D30F007302EE /* notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notes.png; sourceTree = "<group>"; };
+		5231DCB51E4E4E8B00E91750 /* 3_10_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_10_8.png; sourceTree = "<group>"; };
+		5231DCBD1E4E616700E91750 /* Sleep-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sleep-48.png"; sourceTree = "<group>"; };
+		5231DCBF1E4E619600E91750 /* Note-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Note-48.png"; sourceTree = "<group>"; };
 		5236D3D41E3E800E0026CB05 /* ProjectFour-KellyMcNevin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProjectFour-KellyMcNevin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5236D3D71E3E800F0026CB05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5236D3DC1E3E800F0026CB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -126,6 +132,9 @@
 		5208A1561E43BE5E007302EE /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5231DCB51E4E4E8B00E91750 /* 3_10_8.png */,
+				5231DCBF1E4E619600E91750 /* Note-48.png */,
+				5231DCBD1E4E616700E91750 /* Sleep-48.png */,
 				5288C4AE1E49123C00C43B60 /* images.png */,
 				5288C4AF1E49123C00C43B60 /* Unknown.png */,
 				5208A1611E48D30F007302EE /* timeInBed.png */,
@@ -351,9 +360,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5208A17A1E48D30F007302EE /* notes.png in Resources */,
+				5231DCB61E4E4E8B00E91750 /* 3_10_8.png in Resources */,
 				5236D3E21E3E800F0026CB05 /* LaunchScreen.storyboard in Resources */,
 				5236D4081E3FF8880026CB05 /* GoogleService-Info.plist in Resources */,
 				5208A1731E48D30F007302EE /* awakeningsCounted.png in Resources */,
+				5231DCC01E4E619600E91750 /* Note-48.png in Resources */,
 				5208A16F1E48D30F007302EE /* restlessCount.png in Resources */,
 				5208A1711E48D30F007302EE /* awakeduration.png in Resources */,
 				5208A1781E48D30F007302EE /* startTime.png in Resources */,
@@ -367,6 +378,7 @@
 				5236D3DF1E3E800F0026CB05 /* Assets.xcassets in Resources */,
 				5208A1701E48D30F007302EE /* restlessDuration.png in Resources */,
 				5208A1581E43C461007302EE /* Fitbit_logo_RGB.png in Resources */,
+				5231DCBE1E4E616700E91750 /* Sleep-48.png in Resources */,
 				5288C4B11E49123C00C43B60 /* Unknown.png in Resources */,
 				5208A1741E48D30F007302EE /* minutesAwake.png in Resources */,
 				5236D3DD1E3E800F0026CB05 /* Main.storyboard in Resources */,

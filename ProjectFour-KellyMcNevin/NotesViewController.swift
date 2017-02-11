@@ -20,13 +20,17 @@ class NotesViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-        notesTableView.reloadData()
      
         self.notesTableView.emptyDataSetSource = self
         self.notesTableView.emptyDataSetDelegate = self
         self.notesTableView.tableFooterView = UIView()
         
+        notesTableView.reloadData()
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        notesTableView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,6 +41,11 @@ class NotesViewController: UIViewController, UITableViewDataSource, UITableViewD
         individualViewController?.textField.text = ""
     }
     
+    @IBAction func nextButtonWasTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "toEditableNotes", sender: self)
+        //let detailedItem = segue.destination as! EditableNotesViewController
+       // detailedItem.selectedIndex = notesTableView.indexPathForSelectedRow?.row
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return notes.count
     }
@@ -62,6 +71,15 @@ class NotesViewController: UIViewController, UITableViewDataSource, UITableViewD
         selectedCell = cell
     }
     
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        
+        if editingStyle == .delete {
+            notes.remove(at: indexPath.row)
+            notesTableView.reloadData()
+        }
+        
+    }
+    
     //Empty Table View-------------------------------------------
     
     func image(forEmptyDataSet scrollView: UIScrollView!) -> UIImage! {
@@ -79,7 +97,7 @@ class NotesViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
-        let text = "Add notes to track your dreams. Add your first note by tapping the + button."
+        let text = "Add notes to track your dreams."
         
         let para = NSMutableParagraphStyle()
         para.lineBreakMode = NSLineBreakMode.byWordWrapping
@@ -146,10 +164,28 @@ class NotesViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let detailedItem = segue.destination as! EditableNotesViewController
-        detailedItem.selectedIndex = notesTableView.indexPathForSelectedRow?.row
-        //detailedItem.selectedCellIndex = selectedCellIndex
+        
+    /*    if segue.identifier == "toIndividualNote" {
+            let detailedItem = segue.destination as! IndividualNoteViewController
+           // detailedItem.selectedIndex = notesTableView.indexPathForSelectedRow?.row
+
+        }
+        else if segue.identifier == "toNote" {
+            
+            let detailedItem = segue.destination as! EditableNotesViewController
+            detailedItem.selectedIndex = notesTableView.indexPathForSelectedRow?.row
+        }
+        else if segue.identifier == "toEditableNote" {
+    
+            let detailedItem = segue.destination as! EditableNotesViewController
+            detailedItem.selectedIndex = notesTableView.indexPathForSelectedRow?.row
+        }
+    */
+        if segue.identifier == "toEditableNotes" {
+            let detailedItem = segue.destination as! EditableNotesViewController
+            detailedItem.selectedIndex = selectedCellIndex
+        }
+        
     }
 
-    
 }

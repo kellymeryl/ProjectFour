@@ -36,16 +36,31 @@ class SessionsViewController: UIViewController, UITableViewDataSource, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SessionsTableViewCell", for: indexPath) as! SessionsTableViewCell
         let user = users[indexPath.row]
-       // let myFormatter = DateFormatter()
-       // myFormatter.dateStyle = .short
-       // let date = myFormatter.date(from: user.startTime)
-       // myFormatter.dateStyle = .short
-       // let stringDate = myFormatter.string(from: date!)
-        cell.dateLabel.text = user.startTime
+      //  let myFormatter = DateFormatter()
+        let cornerRadius : CGFloat = 5.0
+
+        let stringDate = user.startTime
+       // var date = stringDate.date
+       // let date = myFormatter.date(from: stringDate)
+       // let newDate = date?.ddMMYY
+     /*   var newDate = ""
+        var x = 0
+        for elements in stringDate.characters {
+            while x <= 10 {
+                newDate.append(elements)
+            }
+            x += 1
+        }*/
+        cell.dateLabel.text = stringDate
         let duration = Double(user.duration)
-        let durationLabelText = String((duration! / 1000) * 0.000277778) + " hrs"
+        let durationVar = Double((duration! / 1000) * 0.000277778)
+        let durationLabelText = String(format: "%.2f", durationVar) + " hrs"
         cell.durationLabel.text = durationLabelText
         cell.efficiencyLabel.text = user.efficiency + "%"
+        cell.layer.borderColor = UIColor.gray.cgColor
+   //     cell.layer.cornerRadius = cornerRadius
+        cell.layer.borderWidth = 1
+        
         return cell
     }
     
@@ -73,4 +88,33 @@ class SessionsViewController: UIViewController, UITableViewDataSource, UITableVi
     
 
 }
+
+extension Date {
+    var scr_formatted : String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "YYYY-MM-dd"
+        return dateFormatter.string(from: self)
+    }
+    
+    var ddMMYY : String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MM/dd/YY"
+        return dateFormatter.string(from: self)
+    }
+    
+    var monthDayYearAtTimeString : String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MM/dd/YY @ hh:mm"
+        return dateFormatter.string(from: self)
+    }
+}
+
+extension String {
+    var date: Date? {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "y-M-d H:m:s.S"
+        return (dateFormatter.date(from: self))
+    }
+}
+
 
