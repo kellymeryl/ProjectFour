@@ -170,7 +170,6 @@ class SleepAnalysisViewController: UIViewController, UICollectionViewDelegate, U
     
         let detailedItem = segue.destination as! IndividualNoteViewController
         detailedItem.selectedIndex = selectedIndex
-    
     }
    
 }
